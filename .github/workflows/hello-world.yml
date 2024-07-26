@@ -4,12 +4,5 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-      - run: pwd
-      - run: cd ..
-      - run: ls
-      - run: pwd
-      - run: cd ..
-      - run: ls
-      - run: pwd
-      - run: ls
+      - uses: actions/checkout@v3
       - run: make say-hello
