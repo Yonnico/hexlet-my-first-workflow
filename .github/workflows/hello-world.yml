@@ -5,5 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: pwd
+      - run: cd ..
+      - run: ls
+      - run: pwd
+      - run: cd ..
+      - run: ls
+      - run: pwd
       - run: ls
       - run: make say-hello
